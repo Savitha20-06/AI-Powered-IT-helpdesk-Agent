@@ -1,0 +1,23 @@
+Northwind Workplace Knowledge Base
+Document: Printer Setup and Jam Recovery
+Audience: Office employees
+Owner: End User Computing
+
+1. Approved printers
+Floor printers are named NW-PRN-FLOOR{n}. Home printers are not supported on company laptops.
+
+2. Install a floor printer
+Open Company Software Center > Printers.
+Select the printer for your floor.
+The driver is already signed. Do not download HP or Canon drivers from the vendor website.
+
+3. Paper jam
+Open the front panel, remove trapped paper in the direction of the path arrows, close all trays fully, and print a test page from the printer LCD.
+If the jam repeats three times, stop using the device and place an IT ticket with the printer name from the LCD.
+
+4. Access denied
+Printers use badge-based secure print. Hold your badge on the reader, then select your job.
+If badge print fails, your card may not be mapped. Escalate to IT with your employee number. Do not borrow another person's badge.
+
+5. Toner
+Only Facilities may replace toner. Empty cartridges go to the recycling bin in the copy room.

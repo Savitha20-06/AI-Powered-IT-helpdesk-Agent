@@ -1,0 +1,26 @@
+Northwind Collaboration Knowledge Base
+Document: Email and Outlook Troubleshooting
+Audience: All employees
+Owner: Messaging Team
+
+1. Standard mailbox
+Every employee receives an Exchange Online mailbox. The official address is firstname.lastname@northwind.com.
+
+2. Outlook desktop will not start
+Repair Microsoft 365 Apps from Windows Settings > Apps.
+Clear the Outlook cache by renaming %localappdata%\Microsoft\Outlook to Outlook.bak while Outlook is closed.
+Do not delete PST files.
+
+3. Cannot send or receive
+Confirm VPN is connected if you are off-site.
+Check https://status.office.com for Exchange Online incidents.
+If only one person is affected, recreate the Outlook profile using File > Account Settings > New.
+
+4. Mailbox full
+The default quota is 50 GB. Delete large items from Deleted Items and Sent Items. Request a quota increase only if a director approves.
+
+5. Phishing
+Never enter credentials from an email link. Report phishing with the Report Message button in Outlook. IT will never ask for your password by email.
+
+6. Shared mailboxes
+Access is granted only through an Access Request ticket. Adding a mailbox in Outlook yourself will fail if IAM has not assigned Full Access.

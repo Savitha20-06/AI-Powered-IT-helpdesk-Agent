@@ -1,0 +1,21 @@
+Northwind Software Knowledge Base
+Document: Approved Software and Installation Policy
+Audience: All employees
+Owner: End User Computing
+
+1. Approved catalog
+Install software only from Company Software Center. Approved titles include Microsoft 365, Teams, Edge, Cisco Secure Client, Adobe Reader, and Zoom (company tenant).
+
+2. Installation failed
+Run Software Center as the logged-in user, not as a local admin.
+If the package is missing, it is not approved. Raise a SOFTWARE ticket. Do not use cracked installers or personal Microsoft accounts.
+
+3. Teams not signing in
+Clear Teams cache under %appdata%\\Microsoft\\Teams.
+Sign in with firstname.lastname@northwind.com only.
+
+4. License needed
+Visio and Project require a cost-center code. The AI assistant cannot assign licenses. Escalate to IT with the manager's approval note.
+
+5. Shadow IT
+Dropbox, personal Gmail, and unknown Chrome extensions are blocked by web proxy. This is policy, not a malfunction.

@@ -1,0 +1,20 @@
+Northwind Access Knowledge Base
+Document: Application and Folder Access Requests
+Audience: All employees
+Owner: Identity and Access Management
+
+1. Principle
+Access is granted by role, not by informal chat messages. Managers approve, IAM provisions.
+
+2. How to request
+Use the Access Catalog in Service Portal, or ask the AI helpdesk to escalate an ACCESS ticket.
+Include: system name, required permission, business justification, and manager email.
+
+3. File shares
+\\\\files.northwind.internal\\dept\\finance is limited to Finance. IT cannot add people without manager approval.
+
+4. Privileged access
+Admin rights on laptops are not granted permanently. Use Privileged Access Workstation elevation which expires in 4 hours.
+
+5. Leavers
+Access is revoked on the last working day. Rehire accounts are newly provisioned, never reused.

@@ -1,0 +1,30 @@
+Northwind Corporate IT Knowledge Base
+Document: VPN Access Policy and Setup Guide
+Audience: All employees
+Owner: Network Operations
+
+1. Purpose
+Employees may connect to internal systems only through the approved corporate VPN. Personal VPN tools are not permitted on company laptops.
+
+2. Approved client
+Install Cisco Secure Client (AnyConnect) from the Company Software Center. Do not download VPN software from the public internet.
+
+3. How to connect
+Step 1: Connect to a trusted internet network.
+Step 2: Open Cisco Secure Client.
+Step 3: Enter gateway vpn.northwind.internal
+Step 4: Sign in with your company email and network password.
+Step 5: Approve the Microsoft Authenticator MFA prompt.
+Step 6: Wait until the status shows Connected. The office 10.20.0.0/16 network then becomes reachable.
+
+4. Common errors
+- "Login failed": reset your network password in the Identity Portal, then retry.
+- "Certificate untrusted": your laptop is missing the Northwind Root CA. Raise an IT ticket. Do not ignore certificate warnings.
+- "MFA timeout": open Authenticator before clicking Connect.
+- Split tunnel is disabled. All traffic goes through VPN while connected.
+
+5. Disconnect policy
+Disconnect when you leave the laptop unattended. Overnight VPN sessions are automatically dropped after 12 hours.
+
+6. Support
+If the gateway is unreachable after a password reset and a laptop reboot, escalate to Network Operations with your public IP and the exact error screenshot.

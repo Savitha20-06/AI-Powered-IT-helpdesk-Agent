@@ -1,0 +1,23 @@
+Northwind Hardware Knowledge Base
+Document: Laptop, Dock, and Monitor Support
+Audience: All employees
+Owner: End User Computing
+
+1. Standard kit
+New hires receive a company ThinkPad, 65W USB-C charger, and one 24-inch monitor. Personal accessories are not warrantied.
+
+2. Battery draining fast
+Set Windows power mode to Better battery.
+Update BIOS only from Company Software Center.
+If runtime is under 90 minutes after a full charge, book a battery replacement. Do not open the chassis.
+
+3. Keyboard or screen damage
+Physical damage is covered only if Facilities logs it within 48 hours. Take a photo. Loaner laptops are available for CRITICAL work blockers.
+
+4. Dock not detecting monitor
+Use the company USB-C cable, not a USB-A adapter.
+Update DisplayLink from Software Center.
+Try a second port. If HDMI works but USB-C does not, replace the dock.
+
+5. BitLocker recovery
+Recovery keys are stored in Azure AD. Employees must not store keys in mail. IT Staff can retrieve the key after identity verification.

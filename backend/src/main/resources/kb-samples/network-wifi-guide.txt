@@ -1,0 +1,21 @@
+Northwind Network Knowledge Base
+Document: Office Wi-Fi, Guest Network, and Wired Access
+Audience: All employees
+Owner: Network Operations
+
+1. Corporate SSID
+Connect only to NORTHWIND-CORP. The guest SSID NORTHWIND-GUEST has no access to file shares, printers, or intranet.
+
+2. First-time Wi-Fi
+Use your company email and network password. The profile is pushed by Intune. If you are prompted for a certificate, choose Northwind Device Cert.
+
+3. Slow or dropping Wi-Fi
+Forget the network, reboot the laptop, reconnect.
+Move closer to an access point. Conference rooms on floor 4 are known dead zones; use a docking station Ethernet port there.
+If many people in one area are affected, this is an access-point outage. Escalate as HIGH.
+
+4. Ethernet
+Docking stations on NORTHWIND-CORP provide 1 Gbps. Do not plug personal switches into wall ports.
+
+5. DNS
+Internal names such as intranet.northwind.internal resolve only on corp Wi-Fi or VPN. If they fail at home without VPN, this is expected, not an incident.

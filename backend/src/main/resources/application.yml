@@ -1,0 +1,61 @@
+server:
+  port: 8080
+  tomcat:
+    max-http-form-post-size: 20MB
+
+spring:
+  application:
+    name: it-helpdesk-backend
+
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+  datasource:
+    url: ${MYSQL_URL:jdbc:mysql://localhost:3306/helpdesk?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC}
+    username: ${MYSQL_USERNAME:root}
+    password: ${MYSQL_PASSWORD:}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc:
+          time_zone: UTC
+    open-in-view: false
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:}
+    expiration-ms: 86400000
+
+  cors:
+    allowed-origins: ${CORS_ORIGINS:http://localhost:5173,http://localhost:5174,http://localhost:3000}
+
+  chroma:
+    url: ${CHROMA_URL:http://localhost:8000}
+    collection: enterprise_it_kb
+
+  openai:
+    api-key: ${OPENAI_API_KEY:}
+    base-url: ${OPENAI_BASE_URL:https://api.openai.com/v1}
+    chat-model: ${OPENAI_CHAT_MODEL:gpt-4o-mini}
+    embedding-model: ${OPENAI_EMBEDDING_MODEL:text-embedding-3-small}
+
+  rag:
+    chunk-size: 900
+    chunk-overlap: 150
+    top-k: 5
+    min-similarity: 0.55
+
+  storage:
+    upload-dir: ${UPLOAD_DIR:./data/uploads}
+
+logging:
+  level:
+    com.helpdesk: INFO
+    org.springframework.security: WARN
