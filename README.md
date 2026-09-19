@@ -225,6 +225,24 @@ Classification without an LLM still works: VPN/password/email/printer keywords m
 | `/admin/kb` | Admin | Upload / delete documents |
 
 ---
+## 📸 Screenshots
+
+### 👨‍💼 Admin Console
+![Admin Console](Screenshots/Admin%20console.png)
+
+### 🤖 Employee AI Assistant
+![Employee AI Assistant](Screenshots/Employee%20AI%20Assistant.png)
+
+### 📚 Knowledge Base
+![Knowledge Base](Screenshots/Knowledge%20base.png)
+
+### 🛡️ No Hallucinations
+![No Hallucinations](Screenshots/No%20hallucinations.png)
+
+### 🎫 Ticket Generation
+![Ticket Generation](Screenshots/Ticket%20generation.png)
+
+---
 
 ## Design choices you can defend in an interview
 
