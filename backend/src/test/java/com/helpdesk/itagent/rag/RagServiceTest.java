@@ -19,6 +19,7 @@ class RagServiceTest {
     private RagService ragService;
     private KnowledgeChunkRepository chunkRepository;
 
+    @SuppressWarnings("unused")
     @BeforeEach
     void setUp() {
         AppProperties properties = new AppProperties();
